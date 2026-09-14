@@ -122,13 +122,14 @@ export default function App() {
             <div className="card center">
               <p className="eyebrow">Your pick, baby 😉</p>
               <h2 className="title small">
-                Meek Mill ft. Nicki Minaj — Bad For You 🎶
+                YNW Melly – 772 Love 🎶
               </h2>
               <p className="subtitle">
-                Since you're the one who chose it, this one's all yours —
-                press play and enjoy, gorgeous.
+                No one else gets this, only you. 772 Love is mine for you,
+                and I won't share it. Press play, gorgeous — because I'm
+                stingy with my love, and you're the only one who gets it 😉 💕 🥰
               </p>
-              <YouTubeEmbed title="Meek Mill ft. Nicki Minaj — Bad For You" />
+              <YouTubeEmbed title="YNW Melly – 772 Love" />
               <p className="caption">turn it up, get close, and read on 💋</p>
               <NavButtons onBack={back} onNext={next} nextLabel="Keep going" />
             </div>

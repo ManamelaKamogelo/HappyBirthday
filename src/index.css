@@ -268,60 +268,25 @@ body {
   box-shadow: 0 15px 35px rgba(179, 24, 79, 0.2);
 }
 
-/* YouTube "watch on" card (no iframe — avoids sandboxed-preview embed blocks) */
-.yt-card {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-  margin: 8px 0 6px;
-}
-
-.yt-thumb {
+/* YouTube responsive iframe wrapper */
+.yt-iframe-wrapper {
   position: relative;
   width: 100%;
-  max-width: 420px;
   aspect-ratio: 16 / 9;
   border-radius: 18px;
   overflow: hidden;
+  margin: 8px 0 6px;
   box-shadow: 0 15px 35px rgba(179, 24, 79, 0.25);
-  background: linear-gradient(135deg, #ff6fa5, #ff3f81);
+  background: #000;
 }
 
-.yt-thumb-img {
+.yt-iframe {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  border: none;
   display: block;
-}
-
-.yt-play-badge {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 62px;
-  height: 62px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.55);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-  pointer-events: none;
-}
-
-.yt-btn {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.yt-fallback-link {
-  font-size: 0.82rem;
-  color: #c2467a;
-  text-decoration: underline;
 }
 
 /* Audio player */
