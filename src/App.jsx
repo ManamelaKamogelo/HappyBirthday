@@ -4,7 +4,8 @@ import Gate from "./components/Gate.jsx";
 import FloatingHearts from "./components/FloatingHearts.jsx";
 import YouTubeEmbed from "./components/YouTubeEmbed.jsx";
 
-const STICKER = `${import.meta.env.BASE_URL}attachments/chatgpt-image-sep-12-2026-09_38_58-pm.png`;
+const STICKER = `${import.meta.env.BASE_URL}attachments/ChatGPT-Image-Sep-12-2026-09_38_58-PM.png`;
+
 
 const fadeVariants = {
   initial: { opacity: 0 },
@@ -73,7 +74,7 @@ export default function App() {
           <SectionShell sectionKey="welcome">
             <div className="card center">
               <img src={STICKER} alt="cute birthday sticker" className="sticker sticker-float" />
-              <p className="eyebrow">It really is you 🥹💕</p>
+              <p className="eyebrow">It really is you  💕</p>
               <h1 className="title">Happy Birthday, Refilwe</h1>
               <p className="subtitle">
                 15th of September belongs to the most beautiful girl I know.
@@ -120,16 +121,15 @@ export default function App() {
         {verified && step === 2 && (
           <SectionShell sectionKey="song">
             <div className="card center">
-              <p className="eyebrow">Your pick, baby 😉</p>
+              <p className="eyebrow">This one's for us 😉</p>
               <h2 className="title small">
-                YNW Melly – 772 Love 🎶
+                YNW Melly - 772 love 🎶
               </h2>
               <p className="subtitle">
-                No one else gets this, only you. 772 Love is mine for you,
-                and I won't share it. Press play, gorgeous — because I'm
-                stingy with my love, and you're the only one who gets it 😉 💕 🥰
+                No one else gets this, only you. 772 Love is mine for you, and I won't share it. 
+                Press play, gorgeous — because I'm stingy with my love, and you're the only one who gets it 🥺💖🤗
               </p>
-              <YouTubeEmbed title="YNW Melly – 772 Love" />
+              <YouTubeEmbed title="YNW Melly - 772 love" />
               <p className="caption">turn it up, get close, and read on 💋</p>
               <NavButtons onBack={back} onNext={next} nextLabel="Keep going" />
             </div>
@@ -158,14 +158,14 @@ export default function App() {
             <div className="card center">
               <img src={STICKER} alt="cute birthday sticker" className="sticker sticker-float" />
               <p className="eyebrow">Forever & always</p>
-              <h2 className="title">Happy Birthday, my love</h2>
+              <h2 className="title">Happy Birthday, Moratiwa Wa Me</h2>
               <p className="subtitle">
                 Thank you for being mine. Here's to celebrating you today, and
                 every day after. I love you more than any page could hold.
               </p>
               <p className="signature">— Made with love, just for Refilwe 💕</p>
               <button className="btn btn-primary" onClick={() => setStep(0)}>
-                Read it again 🥹
+                Read it again 🥺💕
               </button>
             </div>
           </SectionShell>
